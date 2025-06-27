@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black d-flex flex-column justify-content-space-between">
+    <h1 class="my-3 text-center">Rock Paper Scissor Game </h1>
+    <section>
+        <div class="main d-flex flex-sm-row flex-column custom-gap m-5 justify-content-space-between align-items-center">
+            <div class="box d-flex flex-column justify-content-center align-items-center gap-2 ">
+                <button type="button" class="bton mt-3 btn1">
+                    <!-- <img class="image img-fluid rock" src="rock.png" alt="ROCK"> -->
+                </button>    
+                <span class="fs-2 text-light fw-semibold labeli">Rock</span>
+                
+            </div>
+            <div class="box d-flex flex-column justify-content-center align-items-center gap-2 ">
+                <button type="button" class="bton mt-3 btn2">
+                   <!-- <img class="image paper" src="paper.png" alt="PAPER"> -->
+                </button>
+                <span class="fs-2 text-light fw-semibold labeli">Paper</span>
+            </div>
+            <div class="box d-flex flex-column justify-content-center align-items-center gap-2 ">
+                <button type="button" class="bton mt-3 btn3">
+                   <!-- <img class="image scissor" src="sicssor.png" alt="SCISSOR"> -->
+                </button>
+                   <span class="fs-2 text-light fw-semibold labeli">Scissor</span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="moves d-flex flex-column justify-content-end align-items-center mt-5">
+            <div>
+                <p class="para user fs-2 text-light pa">Your move: </p>
+                <p class="umove fs-2 text-light pa">NULL</p>
+            </div>
+             <div>
+                <p class="para comp fs-2 text-light pa">Computer move: </p>
+                <p class="cmove fs-2 text-light pa">NULL</p>
+             </div>
+             <div>
+                <p class="para ans fs-2 text-light pa"></p>
+            </div>
+             
+        </div>
+       
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js">
+    </script>
+</body>
+</html>

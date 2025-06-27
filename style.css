@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 100;
+}
+h1 {
+    color: antiquewhite;
+}
+.box{
+    width: 40%;
+
+}
+.btn1{
+    background-image: url(rock.png);
+}
+.btn2{
+    background-image: url(paper.png);
+}
+.btn3{
+    background-image: url(sicssor.png);
+}
+.bton{
+    width: 30%;
+    flex-shrink: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+}
+    
+.image{
+    width: 100%;
+}
+p{ 
+    font-family: "Chicle", serif; 
+}
+.bton:hover {
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+
+.para {
+    margin-bottom: 2rem;
+}
+.pa {
+    display: inline-block;
+}
+.green {
+    color: green;
+}
+/* media queries */
